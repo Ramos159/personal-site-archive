@@ -1,0 +1,36 @@
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow:hidden;
+}
+/* html{
+    background-color: aquamarine
+} */
+
+.navbarLink {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.navbarItem {
+  float: left;
+}
+.navbarItemRight {
+  float: right;
+  background-color: dodgerblue;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+li a:hover {
+  background-color: #111;
+}

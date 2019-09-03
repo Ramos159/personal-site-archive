@@ -1,3 +1,6 @@
 import React from "react"
+import LayOut from "../components/layout"
 
-export default () => <div>Hello world!</div>
+export default () =><LayOut>
+
+</LayOut>
