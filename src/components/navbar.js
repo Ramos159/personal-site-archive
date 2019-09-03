@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react"
 import styles from "../styles/index.module.css"
+import {Link} from "gatsby"
 
 export default class Navbar extends React.Component{
     
     render(){
     return<ul id={styles.navbar}>
-            <li className={styles.navbarItem}><a className={styles.navbarLink}href="../pages/index">Home</a></li>
-            <li className={styles.navbarItem}><a className={styles.navbarLink}href="../pages/blogs">Blogs</a></li>
-            <li className={styles.navbarItem}><a className={styles.navbarLink}href="../pages/blogs">Projects</a></li>
-            <li className={styles.navbarItemRight}><a className={styles.navbarLink}href="../pages/contact">Contact</a></li>
-            <li className={styles.navbarItemRight}><a className={styles.navbarLink}href="../pages/about">About</a></li>
+            <li className={styles.navbarItem}><Link className={styles.navbarLink}to="/">Home</Link></li>
+            <li className={styles.navbarItem}><Link className={styles.navbarLink}to="/blogs">Blogs</Link></li>
+            <li className={styles.navbarItem}><Link className={styles.navbarLink}to="/projects">Projects</Link></li>
+            <li className={styles.navbarItemRight}><Link className={styles.navbarLink}to="/contact">Contact</Link></li>
+            <li className={styles.navbarItemRight}><Link className={styles.navbarLink}to="/about">About</Link></li>
           </ul>
     }
 }

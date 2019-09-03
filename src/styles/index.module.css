@@ -1,13 +1,19 @@
 #navbar {
     list-style-type: none;
-    margin: 0;
+    margin:0;
+    border:0;
     padding: 0;
-    background-color: #333;
+    width:100%;
+    white-space: nowrap;
+    background-color:rgba(0, 0, 0, 0.5);
     overflow:hidden;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
 }
-/* html{
-    background-color: aquamarine
-} */
+body {
+  margin: 0;
+}
 
 .navbarLink {
   display: block;
@@ -17,20 +23,67 @@
   text-decoration: none;
 }
 
-.active {
-  background-color: #4CAF50;
-}
-
 .navbarItem {
   float: left;
 }
 .navbarItemRight {
   float: right;
-  background-color: dodgerblue;
 }
-html {
+.mainPage {
   font-family: 'Open Sans', sans-serif;
+  border:0;
+  margin:0;
+  color: white;
 }
+
+.indexTitle {
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
 li a:hover {
-  background-color: #111;
+  background-color: dodgerblue;
+  text-decoration: underline;
+}
+
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index:-2;
 }
