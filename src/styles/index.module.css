@@ -75,15 +75,16 @@ body {
 }
 li a:hover {
   animation: biggerFont .5s;
-  animation-fill-mode: forwards;
 }
 
 .icon:hover {
-    top:-25px;
+    /* top:-25px;
     left:-35px;
     width:7%;
     height:auto;
-    z-index:999;
+    z-index:999; */
+    animation: biggerPic .5s;
+    animation-fill-mode: forwards;
 }
 
 
@@ -174,4 +175,17 @@ html {
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: RoyalBlue;
+}
+
+.flexContainer {
+  width:100%;
+  margin: auto;
+  text-align: center;
+  display:block;
+  flex-wrap: wrap;
+}
+
+.skillsIcon {
+  height: 5%;
+  width: 5%;
 }
