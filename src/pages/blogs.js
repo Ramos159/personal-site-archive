@@ -7,7 +7,8 @@ import styles from "../styles/index.module.css"
 
 
 export default () =>
-<div>
+<div style={{  position: "relative",
+  minHeight: "100vh"}}>
     <Navbar/>
     <h1 className={styles.indexTitle}>Blogs</h1>
     <h2 className={styles.indexTitle}>Coming Soon!</h2>

@@ -50,8 +50,8 @@ body {
     font-size: 100%;
   }
   to{
-    font-size:110%;
-    padding: 14px;
+    font-size:105%;
+    /* padding: 14px; */
   }
 }
 @keyframes fadein {
