@@ -51,7 +51,7 @@ body {
   }
   to{
     font-size:120%;
-    padding: 14px 14px;
+    padding: 14px;
   }
 }
 @keyframes fadein {
@@ -60,32 +60,6 @@ body {
   }
   to {
       opacity:1;
-  }
-}
-@-moz-keyframes fadein {
-  from {
-      opacity:0;
-  }
-  to {
-      opacity:1;
-  }
-}
-@-webkit-keyframes fadein {
-  from {
-      opacity:0;
-      /* padding: 0% */
-  }
-  to {
-      opacity:1;
-      /* padding:0%; */
-  }
-}
-@-o-keyframes fadein { 
-  from {
-      opacity:0;
-  }
-  to {
-      opacity: 1;
   }
 }
 
@@ -104,7 +78,7 @@ li a:hover {
   animation-fill-mode: forwards;
 }
 
-img a:hover {
+.icon :hover {
   animation: biggerPic .5s;
   animation-fill-mode: forwards;
 }
@@ -121,7 +95,7 @@ img a:hover {
 
 footer {
   position: fixed;
-  padding:1%;
+  padding: 1px;
   left:0;
   right:0;
   bottom: 0;

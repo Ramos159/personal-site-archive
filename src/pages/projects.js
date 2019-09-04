@@ -10,6 +10,7 @@ export default () =>
 <div>
     <Navbar/>
     <h1 className={styles.indexTitle}>Projects</h1>
+    <h2 className={styles.indexTitle}>Coming Soon!</h2>
     <Background/>
     <Footer/>
 </div>
