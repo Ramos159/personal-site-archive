@@ -1,25 +1,27 @@
 #navbar {
+    position: sticky;
     list-style-type: none;
     margin:0;
     border:0;
     padding: 0;
     width:100%;
     white-space: nowrap;
-    background-color:rgba(0, 0, 0, 0.5);
+    /* background-color:rgba(0, 0, 0, 0.5); */
     overflow:hidden;
-    -moz-animation: fadein 4s; /* Firefox */
-    -webkit-animation: fadein 4s; /* Safari and Chrome */
-    -o-animation: fadein 4s; /* Opera */
+    animation: fadein 4s; 
+    min-height: 35%;
 }
 body {
   margin: 0;
+  min-height: 100%;
+  font-family: 'Helvetica', 'Arial';
 }
 
 .navbarLink {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 24px 26px;
   text-decoration: none;
 }
 
@@ -30,16 +32,27 @@ body {
   float: right;
 }
 .mainPage {
-  font-family: 'Open Sans', sans-serif;
   border:0;
   margin:0;
   color: white;
+  z-index:-10;
 }
 
 .indexTitle {
-    -moz-animation: fadein 4s; /* Firefox */
-    -webkit-animation: fadein 4s; /* Safari and Chrome */
-    -o-animation: fadein 4s; /* Opera */
+  padding-top:1%; 
+  text-align: center;
+  animation: fadein 4s;
+  color:white;
+}
+
+@keyframes biggerFont{
+  from{
+    font-size: 100%;
+  }
+  to{
+    font-size:120%;
+    padding: 14px 14px;
+  }
 }
 @keyframes fadein {
   from {
@@ -49,7 +62,7 @@ body {
       opacity:1;
   }
 }
-@-moz-keyframes fadein { /* Firefox */
+@-moz-keyframes fadein {
   from {
       opacity:0;
   }
@@ -57,15 +70,17 @@ body {
       opacity:1;
   }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+@-webkit-keyframes fadein {
   from {
       opacity:0;
+      /* padding: 0% */
   }
   to {
       opacity:1;
+      /* padding:0%; */
   }
 }
-@-o-keyframes fadein { /* Opera */
+@-o-keyframes fadein { 
   from {
       opacity:0;
   }
@@ -74,10 +89,26 @@ body {
   }
 }
 
-li a:hover {
-  background-color: dodgerblue;
-  text-decoration: underline;
+@keyframes biggerPic {
+  from {
+    height:5%;
+    width:5%;
+  }
+  to{
+    height:10%;
+    width:10%;
+  }
 }
+li a:hover {
+  animation: biggerFont .5s;
+  animation-fill-mode: forwards;
+}
+
+img a:hover {
+  animation: biggerPic .5s;
+  animation-fill-mode: forwards;
+}
+
 
 .video {
   position: fixed;
@@ -86,4 +117,34 @@ li a:hover {
   min-width: 100%; 
   min-height: 100%;
   z-index:-2;
+}
+
+footer {
+  position: fixed;
+  padding:1%;
+  left:0;
+  right:0;
+  bottom: 0;
+  text-align: center;
+  animation: fadein 4s; 
+  color:white;
+}
+
+.icon{
+  /* display: block; 
+  margin-left: auto;
+  margin-right: auto; */
+  padding: 14px 16px;
+  height:5%;
+  width: 5%;
+  animation: fadein 4s; 
+}
+
+.imageDiv {
+  align-content: center;
+  text-align: center;
+}
+
+.mainDiv {
+  min-height: 100%;
 }
