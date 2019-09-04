@@ -75,6 +75,7 @@ body {
 }
 li a:hover {
   animation: biggerFont .5s;
+  animation-fill-mode: forwards;
 }
 
 .icon:hover {
