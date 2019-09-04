@@ -8,7 +8,8 @@ import githubIcon from "../media/github.png"
 import linkedinIcon from "../media/linkedin.png"
 
 export default () =>
-<div>
+<div style={{  position: "relative",
+  minHeight: "100vh"}}> 
     <Navbar/>
     <h1 className={styles.indexTitle}>Edwin J. Ramos</h1>
     <h2 className={styles.indexTitle}>Fullstack Software Engineer</h2>

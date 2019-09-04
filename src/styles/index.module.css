@@ -50,7 +50,7 @@ body {
     font-size: 100%;
   }
   to{
-    font-size:120%;
+    font-size:110%;
     padding: 14px;
   }
 }
@@ -69,8 +69,8 @@ body {
     width:5%;
   }
   to{
-    height:7%;
-    width:7%;
+    height:5.5%;
+    width:5.5%;
   }
 }
 li a:hover {
@@ -99,8 +99,8 @@ li a:hover {
 }
 
 footer {
-  position: fixed;
-  padding: 1px;
+  position: absolute;
+  height: 30px;
   left:0;
   right:0;
   bottom: 0;
@@ -181,6 +181,7 @@ html {
 .flexContainer {
   width:100%;
   margin: auto;
+  padding-bottom:40px;
   text-align: center;
   display:block;
   flex-wrap: wrap;
