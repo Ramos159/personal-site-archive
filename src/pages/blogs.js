@@ -11,6 +11,7 @@ export default () =>
     <Navbar/>
     <h1 className={styles.indexTitle}>Blogs</h1>
     <h2 className={styles.indexTitle}>Coming Soon!</h2>
+    <h3 className={styles.indexTitle}>For now see my blogs on Medium <a style={{color:"white"}} href="https://medium.com/@edwinramos269">here</a></h3>
     <Background/>
     <Footer/>
 </div>

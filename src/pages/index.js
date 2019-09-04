@@ -15,7 +15,7 @@ export default () =>
     <h3 className={styles.indexTitle}>New York, NY</h3>
     <div className={styles.imageDiv}>
         <a href="https://github.com/Ramos159" target="_blank" rel="noopener noreferrer"><img className={styles.icon} align="middle" src={githubIcon} alt="GitHub Icon"></img></a>
-        <a href="https://www.linkedin.com/in/edwin-ramos-46a98a18a/" target="_blank" rel="noopener noreferrer"><img className={styles.icon} align="middle" src={linkedinIcon} alt="Linkedin Icon"></img></a>
+        <a href="https://www.linkedin.com/in/edwin-j-ramos-46a98a18a/" target="_blank" rel="noopener noreferrer"><img className={styles.icon} align="middle" src={linkedinIcon} alt="Linkedin Icon"></img></a>
     </div>
     <Background/>
     <Footer/>

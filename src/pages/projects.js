@@ -11,6 +11,8 @@ export default () =>
     <Navbar/>
     <h1 className={styles.indexTitle}>Projects</h1>
     <h2 className={styles.indexTitle}>Coming Soon!</h2>
+    <h3 className={styles.indexTitle}>For now check my Github <a style={{color:"white"}}href="github.com/ramos159">here</a></h3>
+    <h3 className={styles.indexTitle}>Or checkout out one of my live WIP projects <a style={{color:"white"}}href="https://event-hub-site.herokuapp.com/">here</a></h3>
     <Background/>
     <Footer/>
 </div>

@@ -150,3 +150,28 @@ footer {
 html {
   background-color: black;
 }
+
+.resume {
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+  animation: fadeIn 4s;
+}
+.btn {
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+  background-color: DodgerBlue;
+  margin-bottom: 30px;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-color:none;
+  animation: fadeIn 4s;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
