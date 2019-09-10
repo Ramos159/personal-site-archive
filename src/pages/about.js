@@ -20,11 +20,13 @@ export default () =>
     <Navbar/>
     <h1 className={styles.indexTitle}>About</h1>
     <img className={styles.circleIcon}src={defaultPic} alt="icon"/>
-    <p className={styles.aboutText}>I'm someone who likes to have fun, but also knows the value of work</p>
-    <p className={styles.aboutText}>Often, you find people who either have too much fun... or work too hard...</p>
-    <p className={styles.aboutText}>If I didn't work hard, you'd see a rather boring site (god, i hope this isnt boring)</p>
-    <p className={styles.aboutText}>I can not guarantee I had fun figuring out the CSS, but i had fun doing other things</p>
-    <p className={styles.aboutText}>A main principle in design tells that less is more. Oddly enough that works for code too</p>
+    <p className={styles.aboutText}>I like to have fun with things, but also know the value of hard work</p>
+    <p className={styles.aboutText}>Often, you find people who either have too much fun or work too hard</p>
+    <p className={styles.aboutText}>If I didn't work hard, you'd see a rather boring site to represent me to you </p>
+    <p className={styles.aboutText}>If I didn't have fun, you'd see myself here in a selfie that is way too cropped in </p>
+    <p className={styles.aboutText}>This gif photo is probably better than anything i had in my phone while making this</p>
+    <p className={styles.aboutText}>My design was part inspired of sheer annoyance with people over designing their sites </p>
+    <p className={styles.aboutText}>A main principle in design tells that less is really more. Oddly enough that works for code too</p>
     <br/>
     <br/>
     <p className={styles.aboutText}>I use my experience as a former CS student, and a Flatiron School graduate to make great product</p>
