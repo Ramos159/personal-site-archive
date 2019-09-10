@@ -50,8 +50,8 @@ body {
     font-size: 100%;
   }
   to{
-    font-size:105%;
-    /* padding: 14px; */
+    font-size:107%;
+    padding: 20px;
   }
 }
 @keyframes fadein {
@@ -71,6 +71,7 @@ body {
   to{
     height:5.5%;
     width:5.5%;
+    top:-30px;
   }
 }
 li a:hover {
@@ -181,6 +182,7 @@ html {
 .flexContainer {
   width:100%;
   margin: auto;
+  padding-top:20px;
   padding-bottom:40px;
   text-align: center;
   display:block;

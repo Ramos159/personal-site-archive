@@ -7,6 +7,6 @@ export default class Footer extends React.Component {
         this.date = new Date()
     }
     render(){
-        return<div style={{padding:"Auto"}}><footer>© Edwin J. Ramos, {this.date.getFullYear()}</footer></div>
+        return<div style={{paddingTop:"40px"}}><footer>© Edwin J. Ramos, {this.date.getFullYear()}</footer></div>
     }
 }
