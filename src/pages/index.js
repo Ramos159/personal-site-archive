@@ -12,7 +12,7 @@ export default () =>
   minHeight: "100vh"}}> 
     <Navbar/>
     <h1 className={styles.indexTitle}>Edwin J. Ramos</h1>
-    <h2 className={styles.indexTitle}>Fullstack Software Engineer</h2>
+    <h2 className={styles.indexTitle}>Software Engineer</h2>
     <h3 className={styles.indexTitle}>New York, NY</h3>
     <div className={styles.imageDiv}>
         <a href="https://github.com/Ramos159" target="_blank" rel="noopener noreferrer"><img className={styles.icon} align="middle" src={githubIcon} alt="GitHub Icon"></img></a>
