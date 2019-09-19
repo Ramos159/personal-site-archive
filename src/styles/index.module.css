@@ -1,3 +1,18 @@
+@media screen and (max-width:375px){
+  #navbar :not(:last-child){
+    display:none;
+  }
+  #navbar .navbarItemRight .hiddenIcon{
+    display:block;
+    width:7vw;
+    padding: 5vw;
+  }
+}
+
+.navbarItemRight .hiddenIcon{
+  display:none;
+}
+
 #navbar {
     position: sticky;
     list-style-type: none;
@@ -190,6 +205,8 @@ html {
 }
 
 .skillsIcon {
+  padding:14px 16px;
   height: 5%;
   width: 5%;
+  animation: fadeIn 4s;
 }
