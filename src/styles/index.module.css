@@ -164,7 +164,7 @@ html {
   margin-left: auto;
   margin-right:auto;
   display: block;
-  background-color: DodgerBlue;
+  background-color: grey;
   margin-bottom: 30px;
   color: white;
   padding: 12px 30px;
@@ -176,7 +176,7 @@ html {
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: RoyalBlue;
+  background-color: lightgrey;
 }
 
 .flexContainer {
