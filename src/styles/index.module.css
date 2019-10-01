@@ -1,5 +1,5 @@
-@media screen and (max-width:375px){
-  #navbar :not(:last-child){
+@media screen and (max-width:414px){
+  #navbar li :not(:last-child){
     display:none;
   }
   #navbar .navbarItemRight .hiddenIcon{
@@ -9,8 +9,28 @@
   }
 }
 
+@media screen and (max-width:414px){
+  .holder .responsive li {position: relative;}
+  .holder .responsive img .hiddenIcon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .holder .responsive li  {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+
 .navbarItemRight .hiddenIcon{
   display:none;
+}
+
+li .responsiveItem a{
+  float: none;
+  display: block;
+  text-align: left;
 }
 
 #navbar {
@@ -179,7 +199,7 @@ html {
   margin-left: auto;
   margin-right:auto;
   display: block;
-  background-color: DodgerBlue;
+  background-color: grey;
   margin-bottom: 30px;
   color: white;
   padding: 12px 30px;
@@ -191,7 +211,7 @@ html {
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: RoyalBlue;
+  background-color: lightgray;
 }
 
 .flexContainer {
