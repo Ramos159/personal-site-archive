@@ -6,11 +6,24 @@
     float: right;
     display: block;
   }
+  p.aboutText{
+    text-align:start;
+  }
+
+  img.icon{
+    height: 15%;
+    width:15%;
+  }
+
+  img.icon:hover{
+    animation: none;
+  }
+  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 414px) {
   .navbar.responsive {position: relative;background-color: black;z-index: 1000;}
-  .navbar.responsive a.icon {
+  .navbar.responsive a .hiddenIcon {
     position: absolute;
     left: 0;
     top: 0;
@@ -21,6 +34,11 @@
     text-align: left;
     padding:0px,0px;
   }
+
+  /* .navbar.navbar.responsive{
+    max-height: 100%;
+    z-index: 100;
+  } */
 }
 
 #burger {
