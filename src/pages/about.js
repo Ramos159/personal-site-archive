@@ -19,7 +19,7 @@ export default () =>
   minHeight: "100vh"}}>
     <Navbar/>
     <h1 className='indexTitle'>About</h1>
-    <img className='circleIcon'src={defaultPic} alt="icon"/>
+    <img id='icon'className='circleIcon'src={defaultPic} alt="icon"/>
     <p className='aboutText'>I like to have fun with things, but also know the value of hard work</p>
     <p className='aboutText'>Often, you find people who either have too much fun or work too hard</p>
     <p className='aboutText'>If I didn't work hard, you'd see a rather boring site to represent me to you </p>

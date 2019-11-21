@@ -8,6 +8,7 @@
   }
   p.aboutText{
     text-align:start;
+    padding-left: 10px;
   }
 
   img.icon{
@@ -19,12 +20,16 @@
     animation: none;
   }
   
+  #icon{
+    height: 30%;
+    width:30%
+  }
 }
 
 @media screen and (max-width: 414px) {
   .navbar.responsive {position: relative;background-color: black;z-index: 1000;}
   .navbar.responsive a .hiddenIcon {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
   }
