@@ -211,7 +211,7 @@ html {
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: lightgray;
+  background-color: lightgrey;
 }
 
 .flexContainer {

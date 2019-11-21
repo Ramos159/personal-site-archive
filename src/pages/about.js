@@ -11,7 +11,7 @@ import JSPic from "../media/skills/js.png"
 import ReactPic from "../media/skills/react.png"
 import RubyPic from "../media/skills/ruby.png"
 import RORPic from "../media/skills/rubyonrails.png"
-import SQLPic from "../media/skills/sql.png"
+import PYPic from "../media/skills/python.ico"
 import WebdevPic from "../media/skills/webdev.png"
 
 export default () =>
@@ -35,15 +35,15 @@ export default () =>
     <p className={styles.aboutText}>Whenever I'm not coding, I love playing video games, exploring the city I call home and finding the perfect pizza slice</p>
     <Background/>
     <div className={styles.flexContainer}>
-        <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer" alt="Javascript Wiki"><img alt="Javascipt pic" className={styles.skillsIcon}src={JSPic}/></a>
-        <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" alt="React Website"><img alt="React Pic"className={styles.skillsIcon}src={ReactPic}/></a>
-        <a href="https://html.spec.whatwg.org/" target="_blank" rel="noopener noreferrer" alt="HTML5 org website"><img alt="HTML Pic"className={styles.skillsIcon}src={HTMLPic}/></a>
-        <a href="https://www.oracle.com/java/" target="_blank" rel="noopener noreferrer" alt="Oracle Java website"><img alt="Java Pic"className={styles.skillsIcon}src={JavaPic}/></a>
-        <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noopener noreferrer" alt="Official Ruby website"><img alt="Ruby Pic"className={styles.skillsIcon}src={RubyPic}/></a>
-        <a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer" alt="Ruby on Rails website"><img alt="Ruby on Rails pic"className={styles.skillsIcon}src={RORPic}/></a>
-        <a href="https://www.w3.org/Style/CSS/" target="_blank" rel="noopener noreferrer" alt="W3 CSS website"><img alt="CSS Pic"className={styles.skillsIcon}src={CSSPic}/></a>
-        <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener noreferrer" alt="SQL Wiki"><img alt="SQL Pic"className={styles.skillsIcon}src={SQLPic}/></a>
-        <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" rel="noopener noreferrer" alt="Web Development Wiki"><img alt="Web Development pic"className={styles.skillsIcon}src={WebdevPic}/></a>
+        <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer" alt="Javascript Wiki"><img alt="Javascipt pic" className={styles.icon}src={JSPic}/></a>
+        <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" alt="React Website"><img alt="React Pic"className={styles.icon}src={ReactPic}/></a>
+        <a href="https://html.spec.whatwg.org/" target="_blank" rel="noopener noreferrer" alt="HTML5 org website"><img alt="HTML Pic"className={styles.icon}src={HTMLPic}/></a>
+        <a href="https://www.oracle.com/java/" target="_blank" rel="noopener noreferrer" alt="Oracle Java website"><img alt="Java Pic"className={styles.icon}src={JavaPic}/></a>
+        <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noopener noreferrer" alt="Official Ruby website"><img alt="Ruby Pic"className={styles.icon}src={RubyPic}/></a>
+        <a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer" alt="Ruby on Rails website"><img alt="Ruby on Rails pic"className={styles.icon}src={RORPic}/></a>
+        <a href="https://www.w3.org/Style/CSS/" target="_blank" rel="noopener noreferrer" alt="W3 CSS website"><img alt="CSS Pic"className={styles.icon}src={CSSPic}/></a>
+        <a href="https://python.org" target="_blank" rel="noopener noreferrer" alt="Python Wiki"><img alt="Pyhton Pic"className={styles.icon}src={PYPic}/></a>
+        <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" rel="noopener noreferrer" alt="Web Development Wiki"><img alt="Web Development pic"className={styles.icon}src={WebdevPic}/></a>
     </div>
     <Footer/>
 </div>
