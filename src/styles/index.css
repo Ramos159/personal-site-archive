@@ -1,15 +1,33 @@
-@media screen and (max-width:414px){
-  #navbar li :not(:last-child){
-    display:none;
+@media screen and (max-width: 414px) {
+  div .navbar a{
+    display: none;
   }
-  #navbar .navbarItemRight .hiddenIcon{
-    display:block;
-    width:7vw;
-    padding: 5vw;
+  .navbar a.hiddenIcon {
+    float: right;
+    display: block;
   }
 }
 
-@media screen and (max-width:414px){
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;background-color: black;z-index: 1000;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding:0px,0px;
+  }
+}
+
+#burger {
+  max-width: 50px;
+}
+
+/* @media screen and (max-width:414px){
   .holder .responsive li {position: relative;}
   .holder .responsive img .hiddenIcon {
     position: absolute;
@@ -21,9 +39,9 @@
     display: block;
     text-align: center;
   }
-}
+} */
 
-.navbarItemRight .hiddenIcon{
+.navbar .hiddenIcon{
   display:none;
 }
 
@@ -33,7 +51,7 @@ li .responsiveItem a{
   text-align: left;
 }
 
-#navbar {
+.navbar {
     position: sticky;
     list-style-type: none;
     margin:0;
@@ -52,20 +70,26 @@ body {
   font-family: 'Helvetica', 'Arial';
 }
 
-.navbarLink {
+.navbar a{
   display: block;
   color: white;
   text-align: center;
   padding: 24px 26px;
   text-decoration: none;
+  float: left;
 }
 
-.navbarItem {
+.navbar a:hover{
+  animation: biggerFont .5s;
+  animation-fill-mode: forwards;
+}
+
+/* .navbarItem {
   float: left;
 }
 .navbarItemRight {
   float: right;
-}
+} */
 .mainPage {
   border:0;
   margin:0;
@@ -85,7 +109,7 @@ body {
     font-size: 100%;
   }
   to{
-    font-size:107%;
+    font-size:110%;
     padding: 20px;
   }
 }
@@ -211,7 +235,7 @@ html {
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: lightgrey;
+  background-color: lightgray;
 }
 
 .flexContainer {
