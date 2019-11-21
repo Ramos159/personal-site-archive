@@ -11,7 +11,7 @@ import JSPic from "../media/skills/js.png"
 import ReactPic from "../media/skills/react.png"
 import RubyPic from "../media/skills/ruby.png"
 import RORPic from "../media/skills/rubyonrails.png"
-import SQLPic from "../media/skills/sql.png"
+import PYPic from "../media/skills/python.ico"
 import WebdevPic from "../media/skills/webdev.png"
 
 export default () =>
@@ -42,7 +42,7 @@ export default () =>
         <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noopener noreferrer" alt="Official Ruby website"><img alt="Ruby Pic"className={styles.icon}src={RubyPic}/></a>
         <a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer" alt="Ruby on Rails website"><img alt="Ruby on Rails pic"className={styles.icon}src={RORPic}/></a>
         <a href="https://www.w3.org/Style/CSS/" target="_blank" rel="noopener noreferrer" alt="W3 CSS website"><img alt="CSS Pic"className={styles.icon}src={CSSPic}/></a>
-        <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener noreferrer" alt="SQL Wiki"><img alt="SQL Pic"className={styles.icon}src={SQLPic}/></a>
+        <a href="https://python.org" target="_blank" rel="noopener noreferrer" alt="Python Wiki"><img alt="Pyhton Pic"className={styles.icon}src={PYPic}/></a>
         <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" rel="noopener noreferrer" alt="Web Development Wiki"><img alt="Web Development pic"className={styles.icon}src={WebdevPic}/></a>
     </div>
     <Footer/>
