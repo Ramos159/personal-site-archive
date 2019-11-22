@@ -29,6 +29,10 @@
   .resume{
     max-width: 90%;
   }
+
+  p#warning.indexTitle{
+    display:block;
+  }
   }
 
 @media screen and (max-width: 414px) {
@@ -53,6 +57,10 @@
 
 #burger {
   max-width: 50px;
+}
+
+p#warning{
+  display:none
 }
 
 /* @media screen and (max-width:414px){
