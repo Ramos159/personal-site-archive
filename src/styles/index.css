@@ -37,6 +37,10 @@
     display:block;
   }
 
+  .video{
+    display:none;
+  }
+
   /* .navbar.re{
     z-index: 1000;
     min-height: max-content;
@@ -338,8 +342,4 @@ html {
   height: 5%;
   width: 5%;
   animation: fadeIn 4s;
-}
-
-*{
-  z-index: -1;
 }
