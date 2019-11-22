@@ -18,7 +18,7 @@ export default () =>
         <a href="https://github.com/Ramos159" target="_blank" rel="noopener noreferrer"><img className='icon' align="middle" src={githubIcon} alt="GitHub Icon"></img></a>
         <a href="https://www.linkedin.com/in/edwin-j-ramos-46a98a18a/" target="_blank" rel="noopener noreferrer"><img className='icon' align="middle" src={linkedinIcon} alt="Linkedin Icon"></img></a>
     </div>
-    <p id='warning'className='indexTitle'>I see you're on mobile, I apologize for the wacky menu above! I'm working on it haha</p>
+    {/* <p id='warning'className='indexTitle'>I see you're on mobile, I apologize for the wacky menu above! I'm working on it haha</p> */}
     <Background/>
     <Footer/>
 </div>
