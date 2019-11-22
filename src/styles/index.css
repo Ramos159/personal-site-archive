@@ -79,10 +79,11 @@
 
 #burger {
   max-width: 50px;
-  position: absolute;
+  position: fixed;
   right: 3%;
   top:3%;
-  z-index:1000 !important
+  z-index:1000 !important;
+  padding: 40px
 }
 
 p#warning{
