@@ -63,7 +63,7 @@
   .navbar.responsive a {
     float: none;
     display:block;
-    text-align: left;
+    text-align: right;
     font-size: xx-large;
     animation: none;
   }
