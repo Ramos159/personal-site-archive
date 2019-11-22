@@ -58,6 +58,7 @@
     position: fixed;
     left: 0;
     top: 0;
+    padding:none;
   }
   .navbar.responsive a {
     float: none;
