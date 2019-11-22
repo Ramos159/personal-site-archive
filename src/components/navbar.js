@@ -41,6 +41,8 @@ export default class Navbar extends React.Component{
   //     </div>
   //   )
   // }
+
+  // <a href={null} className="hiddenIcon" onClick={this.showMenu}><img id="burger"src={menuIcon}/></a>
     
     render(){
     return<div id='holder'className="navbar">
@@ -54,3 +56,7 @@ export default class Navbar extends React.Component{
           </div>
     }
 }
+
+
+
+

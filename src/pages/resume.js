@@ -3,8 +3,8 @@ import Footer from "../components/footer.js"
 import Navbar from "../components/navbar.js"
 import Background from "../components/background.js"
 import "../styles/index.css" 
-import resume from "../media/resume.pdf"
 import resumePDF from "../media/resume.pdf"
+import resumePic from '../media/resume.jpg'
 
 
 
@@ -18,7 +18,7 @@ export default () =>
              Download
         </button>
     </a>
-    <iframe className='resume'src={resume} type="application/pdf" width="825px" height="1050px"/>   
+    <iframe className='resume'src={resumePDF} type="application/pdf" width="825px" height="1050px"/>  
     <Background/>
     <Footer/>
 </div>

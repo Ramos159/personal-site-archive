@@ -25,7 +25,11 @@
     height: 30%;
     width:30%
   }
-}
+
+  .resume{
+    max-width: 90%;
+  }
+  }
 
 @media screen and (max-width: 414px) {
   .navbar.responsive {position: relative;background-color: rgba(0, 0, 0, 0.274);z-index: 1000;}
@@ -77,7 +81,6 @@ li .responsiveItem a{
 
 .navbar {
     position: sticky;
-    list-style-type: none;
     margin:0;
     border:0;
     padding: 0;
@@ -92,6 +95,27 @@ body {
   margin: 0;
   min-height: 100%;
   font-family: 'Helvetica', 'Arial';
+}
+
+.mobile{
+  position: sticky;
+  margin:0;
+  border:0;
+  padding: 0;
+  width:100%;
+  white-space: nowrap;
+  /* background-color:rgba(0, 0, 0, 0.5); */
+  overflow:hidden;
+  animation: fadein 4s; 
+  min-height: 35%;
+  display:none
+}
+
+.mobile a.hiddenIcon{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .navbar a{
