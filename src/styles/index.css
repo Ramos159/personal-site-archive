@@ -59,6 +59,7 @@
     right: 3%;
     top: 3%;
     padding:none;
+    z-index:1000
   }
   .navbar.responsive a {
     float: none;
