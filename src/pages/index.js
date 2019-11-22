@@ -9,8 +9,8 @@ import linkedinIcon from "../media/linkedin.png"
 
 export default () =>
 <div style={{  position: "relative",
-  minHeight: "100vh",
-  paddingTop:'20px'}}> 
+  minHeight: "90vh",
+  paddingTop:'10px'}}> 
     <Navbar/>
     <h1 className='indexTitle'>Edwin J. Ramos</h1>
     <h2 className='indexTitle'>Software Engineer</h2>
@@ -19,7 +19,7 @@ export default () =>
         <a href="https://github.com/Ramos159" target="_blank" rel="noopener noreferrer"><img className='icon' align="middle" src={githubIcon} alt="GitHub Icon"></img></a>
         <a href="https://www.linkedin.com/in/edwin-j-ramos-46a98a18a/" target="_blank" rel="noopener noreferrer"><img className='icon' align="middle" src={linkedinIcon} alt="Linkedin Icon"></img></a>
     </div>
-    {/* <p id='warning'className='indexTitle'>I see you're on mobile, I apologize for the wacky menu above! I'm working on it haha</p> */}
+    <p id='warning'className='indexTitle'>Menu likes to play hide and seek but it's still there! currently working on a fix</p>
     <Background/>
     <Footer/>
 </div>
