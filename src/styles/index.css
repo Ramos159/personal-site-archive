@@ -79,7 +79,7 @@
 
 #burger {
   max-width: 50px;
-  position: fixed;
+  position: absolute;
   right: 3%;
   top:3%;
   z-index:1000 !important
