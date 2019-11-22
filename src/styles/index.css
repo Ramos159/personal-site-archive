@@ -83,7 +83,7 @@
   position: absolute;
   right: 3%;
   top:3%;
-  z-index:1000 !important;
+  z-index:1100 !important;
 }
 
 p#warning{
