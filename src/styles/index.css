@@ -86,8 +86,8 @@
 }
 
 img#burger {
-  max-width: 20px;
-  max-height: 20px;
+  max-width: 30px;
+  max-height: 30px;
   position: fixed;
   right: 3%;
   top:3%;
