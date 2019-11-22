@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 414px) {
   .navbar.responsive {
-    position: fixed;
+    position: absolute;
     background-color: rgba(0, 0, 0, 1);
     z-index: 1000;
     width:100%;
@@ -80,7 +80,7 @@
 
 #burger {
   max-width: 50px;
-  position: fixed;
+  position: absolute;
   right: 3%;
   top:3%;
   z-index:1000 !important;

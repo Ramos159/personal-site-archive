@@ -10,7 +10,7 @@ import linkedinIcon from "../media/linkedin.png"
 export default () =>
 <div style={{  position: "relative",
   minHeight: "100vh",
-  padding:'20px'}}> 
+  paddingTop:'20px'}}> 
     <Navbar/>
     <h1 className='indexTitle'>Edwin J. Ramos</h1>
     <h2 className='indexTitle'>Software Engineer</h2>
