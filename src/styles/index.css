@@ -56,14 +56,14 @@
   }
   .navbar.responsive a.hiddenIcon {
     position: fixed;
-    right: 0;
-    top: 0;
+    right: 3%;
+    top: 3%;
     padding:none;
   }
   .navbar.responsive a {
     float: none;
     display:block;
-    text-align: right;
+    text-align: center;
     font-size: xx-large;
     animation: none;
   }
