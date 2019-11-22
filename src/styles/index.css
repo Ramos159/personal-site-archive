@@ -86,7 +86,8 @@
 }
 
 #burger {
-  max-width: 40px;
+  max-width: 20px;
+  max-height: 20px;
   position: absolute;
   right: 3%;
   top:3%;
