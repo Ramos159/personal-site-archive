@@ -28,6 +28,8 @@
 
   .resume{
     max-width: 90%;
+    width:90%;
+    
   }
 
   p#warning.indexTitle{
@@ -274,6 +276,8 @@ html {
   margin-right:auto;
   display: block;
   animation: fadeIn 4s;
+  width:825px;
+  height:1050px;
 }
 .btn {
   margin-left: auto;
