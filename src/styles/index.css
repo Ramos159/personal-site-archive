@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 414px) {
   .navbar.responsive {
-    position: absolute;
+    position: fixed;
     background-color: rgba(0, 0, 0, 1);
     z-index: 1000;
     width:100%;
