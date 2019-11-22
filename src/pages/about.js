@@ -16,7 +16,7 @@ import WebdevPic from "../media/skills/webdev.png"
 
 export default () =>
 <div style={{  position: "relative",
-  minHeight: "100vh"}}>
+  minHeight: "100vh",zIndex:'-10'}}>
     <Navbar/>
     <h1 className='indexTitle'>About</h1>
     <img id='icon'className='circleIcon'src={defaultPic} alt="icon"/>
