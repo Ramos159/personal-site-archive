@@ -22,10 +22,9 @@ export default () =>
     <img id='icon'className='circleIcon'src={defaultPic} alt="icon"/>
     <p className='aboutText'>I like to have fun with things, but also know the value of hard work</p>
     <p className='aboutText'>Often, you find people who either have too much fun or work too hard</p>
-    <p className='aboutText'>If I didn't work hard, you'd see a rather boring site to represent me to you </p>
+    <p className='aboutText'>If I didn't work hard, you'd see some default template site instead a handmad one </p>
     <p className='aboutText'>If I didn't have fun, You wouldn't see this well kept mustache on a default photo  </p>
-    {/* <p className={styles.aboutText}>This gif photo is probably better than anything i had in my phone while making this</p> */}
-    <p className='aboutText'>My design was part inspired of sheer annoyance with people over designing their sites </p>
+    <p className='aboutText'>I'm a pretty minimalist guy and enjoy the simpler things in life, this site reflects it</p>
     <p className='aboutText'>A main principle in design tells that less is really more. Oddly enough that works for code too</p>
     <br/>
     <br/>
