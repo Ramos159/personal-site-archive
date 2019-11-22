@@ -1,4 +1,4 @@
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
   div .navbar a{
     display: none;
   }
@@ -50,7 +50,7 @@
   } */
   }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
   .navbar.responsive {
     position: fixed;
     background-color: rgba(0, 0, 0, 1);
@@ -85,13 +85,14 @@
   } */
 }
 
-#burger {
+img#burger {
   max-width: 20px;
   max-height: 20px;
-  position: absolute;
+  position: fixed;
   right: 3%;
   top:3%;
-  z-index:1000 !important;
+  z-index:2000 !important;
+  padding:none;
 }
 
 p#warning{
