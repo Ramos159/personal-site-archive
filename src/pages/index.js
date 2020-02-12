@@ -9,11 +9,10 @@ import linkedinIcon from "../media/linkedin.png"
 
 export default () =>
 <div style={{  position: "relative",
-  minHeight: "90vh",
-  paddingTop:'10px',zIndex:'-10'}}> 
+  minHeight: "90vh",zIndex:'-10'}}> 
     <Navbar/>
     <h1 className='indexTitle'>Edwin J. Ramos</h1>
-    <h2 className='indexTitle'>Software Engineer</h2>
+    <h2 className='indexTitle'>Web / Mobile Software Engineer</h2>
     <h3 className='indexTitle'>New York, NY</h3>
     <div className='imageDiv'>
         <a href="https://github.com/Ramos159" target="_blank" rel="noopener noreferrer"><img className='icon' align="middle" src={githubIcon} alt="GitHub Icon"></img></a>

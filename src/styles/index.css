@@ -3,7 +3,8 @@
     display: none;
   }
   .navbar a.hiddenIcon {
-    float: right;
+    position:fixed;
+    /* float: right; */
     display: block;
     right: 3%;
     top: 3%;
