@@ -8,7 +8,9 @@ import "../styles/index.css"
 
 export default () =>
 <div style={{  position: "relative",
-  minHeight: "100vh"}}>
+  minHeight: "100vh",
+  zIndex:"-10"
+  }}>
     <Navbar/>
     <h1 className='indexTitle'>Projects</h1>
     <h2 className='indexTitle'>Coming Soon!</h2>

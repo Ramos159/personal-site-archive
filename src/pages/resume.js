@@ -4,12 +4,11 @@ import Navbar from "../components/navbar.js"
 import Background from "../components/background.js"
 import "../styles/index.css" 
 import resumePDF from "../media/resume.pdf"
-import resumePic from '../media/resume.jpg'
 
 
 
 export default () =>
-<div>
+<div style={{zIndex:'-10'}}>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <Navbar/>
     <a href={resumePDF} style={{textDecoration:"none"}} download="Edwin_Ramos_Resume">
