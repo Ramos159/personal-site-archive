@@ -28,7 +28,7 @@ export default () =>
     <p className='aboutText'>A main principle in design tells that less is really more. Oddly enough that works for code too</p>
     <br/>
     <br/>
-    <p className='aboutText'>I use my experience as a former CS student, and a Flatiron School graduate to make great product</p>
+    <p className='aboutText'>I use my experience as a self-taught engineer and current CS student at CUNY Queens College to make great apps</p>
     <p className='aboutText'>As of right now i am currently working as a Web Development and Design Intern for <a href='https://lighthouseguild.org' style={{color:'white'}}>Lighthouse Guild</a></p> 
     <p className='aboutText'>My vast experience in retail allows me to work well with teams, encourage growth, and maintain chemistry</p>
     <p className='aboutText'>With genuine passion for Technology, I'm constantly expanding my skillset to accomodate my work and interests</p>
