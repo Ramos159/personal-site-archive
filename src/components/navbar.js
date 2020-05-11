@@ -1,10 +1,10 @@
 import React from "react"
 import "../styles/index.css"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
-import menuIcon from "../media/white-menu.png"
-// import {Link} from "gatsby"
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default class Navbar extends React.Component{
+export default class CustomNav extends React.Component{
 
   //  myFunction(){
   //   let x = document.getElementById(`${styles.navbar}`);
@@ -14,20 +14,20 @@ export default class Navbar extends React.Component{
   //     x.className = `${styles.navbar}`;
   //   }
   // }
-  state = {
-    toggle:false
-  }
+  // state = {
+  //   toggle:false
+  // }
 
-  showMenu = () => {
-    let menu = document.getElementById('holder')
+  // showMenu = () => {
+  //   let menu = document.getElementById('holder')
 
-    if (menu.className === "navbar") {
-      menu.className += " responsive";
-    } 
-    else {
-      menu.className = "navbar";
-    }
-  }
+  //   if (menu.className === "navbar") {
+  //     menu.className += " responsive";
+  //   } 
+  //   else {
+  //     menu.className = "navbar";
+  //   }
+  // }
 
   // responsiveMenu = () =>{
   //   return(
@@ -45,15 +45,32 @@ export default class Navbar extends React.Component{
   // <a href={null} className="hiddenIcon" onClick={this.showMenu}><img id="burger"src={menuIcon}/></a>
     
     render(){
-    return<div id='holder'className="navbar">
-            <AniLink fade to="/">Home</AniLink>
-            <a fade  target="_blank" rel="noopener noreferrer"href="https://medium.com/@edwinramos269">Blogs</a>
-            <AniLink fade to="/projects">Projects</AniLink>
-            <AniLink fade to="/resume">Resume</AniLink>
-            <a href="mailto:edwinramos269@gmail.com?subject=Inquiry%20about%20your%20awesomeness&body=Hey%20Edwin,%20I%20was%20wondering%20how%20you%20became%20so%20awesome...">Contact</a>
-            <AniLink fade to="/about">About</AniLink>
-            <a href={null} className="hiddenIcon" onClick={this.showMenu}><img id="burger"src={menuIcon}/></a>
-          </div>
+  //   return<Navbar bg="light" expand="lg">
+  //     <Nav className="mr-auto">
+  //       <Nav.Link href="#home">Home</Nav.Link>
+  //       <Nav.Link href="#link">Link</Nav.Link>
+  //     </Nav>
+  // </Navbar>
+  return<Navbar bg="black" expand="lg" variant="dark">
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link href="https://www.edwinjramos.com/">Home</Nav.Link>
+      <Nav.Link href="https://medium.com/@edwinramos269">Blogs</Nav.Link>
+      <Nav.Link href="https://www.edwinjramos.com/projects">Projects</Nav.Link>
+      <Nav.Link href="https://www.edwinjramos.com/resume">Resume</Nav.Link>
+      <Nav.Link href="mailto:edwinramos269@gmail.com?subject=Inquiry%20about%20your%20awesomeness&body=Hey%20Edwin,%20I%20was%20wondering%20how%20you%20became%20so%20awesome...">Contact</Nav.Link>
+      <Nav.Link href="https://www.edwinjramos.com/about">About</Nav.Link>
+      {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+      </NavDropdown> */}
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
     }
 }
 
