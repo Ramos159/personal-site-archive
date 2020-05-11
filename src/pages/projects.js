@@ -14,8 +14,8 @@ export default () =>
     <Navbar/>
     <h1 className='indexTitle'>Projects</h1>
     <h2 className='indexTitle'>Coming Soon!</h2>
-    <h3 className='indexTitle'>For now check my Github <a style={{color:"white"}} rel="noopener noreferrer" target="_blank" href="https://github.com/Ramos159">here</a></h3>
-    <h3 className='indexTitle'>Or checkout out one of my live WIP projects <a style={{color:"white"}} rel="noopener noreferrer" target="_blank" href="https://event-hub-site.herokuapp.com/">here</a></h3>
+    <h3 className='indexTitle'>For now check my Github <a style={{color:"white",textDecoration:"underline"}} rel="noopener noreferrer" target="_blank" href="https://github.com/Ramos159">here</a></h3>
+    <h3 className='indexTitle'>Or checkout out one of my live WIP projects <a style={{color:"white",textDecoration:"underline"}} rel="noopener noreferrer" target="_blank" href="https://event-hub-site.herokuapp.com/">here</a></h3>
     <p className='indexTitle' >Warning: the project site is hosted on a free hosting, will be slow loading up.</p>
     <p className='indexTitle' >should it not load the first time, please retry</p>
     <Background/>
