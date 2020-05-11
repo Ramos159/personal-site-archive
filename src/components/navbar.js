@@ -1,9 +1,9 @@
 import React from "react"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/index.css"
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class CustomNav extends React.Component{
 
