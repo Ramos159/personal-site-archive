@@ -40,17 +40,17 @@
     display:block;
   } */
 
-  .video{
-    display:none; 
+  video{
+    display:none;
   } 
-  /*
+
   html{
     background-color: black;
   }
 
   body{
     background-color: black;
-  } */
+  } 
 
   /* .navbar.re{
     z-index: 1000;
