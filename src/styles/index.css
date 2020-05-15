@@ -16,7 +16,13 @@
     padding-left: 10px; 
   } */
 
-  img.icon{
+  .icon{
+    min-height: 25%;
+    min-width:25%;
+    animation:fadeIn;
+  }
+
+  .circleIcon{
     min-height: 25%;
     min-width:25%;
     animation:fadeIn;
