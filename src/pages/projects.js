@@ -61,7 +61,7 @@ export default () =>
     <hr style={{color:'white',backgroundColor:'white',width:'40%'}}></hr>
     <h2 className='indexTitle'>Geometric Warfare</h2>
     <div id='project'>
-    <a href="https://github.com/Ramos159/personal-site"><img src="https://gh-card.dev/repos/Ramos159/personal-site.svg"/></a>
+    <a href="https://github.com/Ramos159/geometric-warfare"><img src="https://gh-card.dev/repos/Ramos159/geometric-warfare.svg"/></a>
     </div>
     <p className='indexTitle'>Browser game app inspired by Geometry wars</p>
     <p className='indexTitle'>Classic spaceship shooter game with scaling difficulty and humorous game assets</p>
