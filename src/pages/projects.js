@@ -19,18 +19,18 @@ export default () =>
     <div id='project'>
       <RepoCard username='Ramos159' repo='personal-site'/>
     </div>
-    <p className='indexTitle'>Not much to explain here, just this website. 100% handbuilt.</p>
+    <p className='indexTitle'>Not much to explain here, just this website. 100% handbuilt</p>
     <p className='indexTitle'>Nice looking Web Pages and Animations with plain HTML and CSS(hopefully)</p>
-    <p className='indexTitle'>Built with Javascript and Gatsby.Js</p>
+    <p className='indexTitle'>Built with Javascript, Gatsby.Js and Netlify</p>
     <hr style={{color:'white',backgroundColor:'white',width:'40%'}}></hr>
     <h2 className='indexTitle'>PocketDex</h2>
     <div id='project'>
       <RepoCard username='Ramos159' repo='Pokemon-react-native-app'/>
     </div>
     <p className='indexTitle'>This is a work in-progress and my first forray into mobile development.</p>
-    <p className='indexTitle'>Will emulate a Pokedex from the Pokemon Series. Great source on everything Pokeverse.</p>
+    <p className='indexTitle'>Will emulate a Pokedex from the Pokemon Series. Great source on everything Pokeverse</p>
     <p className='indexTitle'>Will be using the Pokemon API, various React Native Component Libraries, Redux</p>
-    <p className='indexTitle'>Building with Typescript, React Native, and Expo.</p>
+    <p className='indexTitle'>Building with Typescript, React Native, and Expo</p>
     <hr style={{color:'white',backgroundColor:'white',width:'40%'}}></hr>
     <a style={{color:"white",textDecoration:"underline"}} rel="noopener noreferrer" target="_blank" href="https://nycttp-frontend.herokuapp.com/"><h2 className='indexTitle'>StockFolio</h2></a>
     <div id='project'>
@@ -38,8 +38,9 @@ export default () =>
       <RepoCard username='dankoMong' repo='reactdex-frontend'/>
     </div>
     <p className='indexTitle'>Web App Project made for NYC Tech Talent Pipeline Assesment</p>
-    <p className='indexTitle'>Real time stock data with Alphavantage API, encrypted login with BCrypt, Semantic UI components.</p>
+    <p className='indexTitle'>Real time stock data with Alphavantage API, encrypted login with BCrypt, Semantic UI components</p>
     <p className='indexTitle'>Built with Javascript, React.JS, Ruby, Ruby on Rails</p>
+    <b><p className='indexTitle' style={{fontSize:'120%',color:'LightSkyBlue',textDecoration:'underline'}}>Warning: Hosted on a free service, may not load on first attempt</p></b>
     <hr style={{color:'white',backgroundColor:'white',width:'40%'}}></hr>
     <a style={{color:"white",textDecoration:"underline"}} rel="noopener noreferrer" target="_blank" href="https://event-hub-site.herokuapp.com/"><h2 className='indexTitle'>EventHub</h2></a>
     <div id='project'>
@@ -49,6 +50,7 @@ export default () =>
     <p className='indexTitle'>Web App that emulates an ecommerce site based on selling tickets to events</p>
     <p className='indexTitle'>Uses 2 TicketMaster API's, BCrypt, Postgres, Semantic UI</p>
     <p className='indexTitle'>Built with Javascript, React.JS, Ruby, Ruby on Rails</p>
+    <b><p className='indexTitle' style={{fontSize:'120%',color:'LightSkyBlue',textDecoration:'underline'}}>Warning: Hosted on a free service, may not load on first attempt</p></b>
     <hr style={{color:'white',backgroundColor:'white',width:'40%'}}></hr>
     <a style={{color:"white",textDecoration:"underline"}} rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/watch?v=3cc1s6kSAmM"><h2 className='indexTitle'>ReactDex</h2></a>
     <div id='project'>
