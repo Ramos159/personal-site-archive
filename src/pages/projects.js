@@ -2,8 +2,6 @@ import React from "react"
 import Footer from "../components/footer.js"
 import Navbar from "../components/navbar.js"
 import Background from "../components/background.js"
-import { RepoCard } from 'react-github-cards/dist/medium'
-import 'react-github-cards/dist/medium.css';
 import "../styles/index.css"
 
 
@@ -17,13 +15,13 @@ export default () =>
     <h1 className='indexTitle'>Projects</h1>
     <h2 className='indexTitle'>This Website!</h2>
     <div id='project'>
-      <RepoCard username='Ramos159' repo='personal-site'/>
+    <a href="https://github.com/Ramos159/personal-site"><img src="https://gh-card.dev/repos/Ramos159/personal-site.svg"/></a>
     </div>
     <p className='indexTitle'>Not much to explain here, just this website. 100% handbuilt</p>
     <p className='indexTitle'>Nice looking Web Pages and Animations with plain HTML and CSS(hopefully)</p>
     <p className='indexTitle'>Built with Javascript, Gatsby.Js and Netlify</p>
     <hr style={{color:'white',backgroundColor:'white',width:'40%'}}></hr>
-    <h2 className='indexTitle'>PocketDex</h2>
+    {/* <h2 className='indexTitle'>PocketDex</h2>
     <div id='project'>
       <RepoCard username='Ramos159' repo='Pokemon-react-native-app'/>
     </div>
@@ -67,7 +65,7 @@ export default () =>
     </div>
     <p className='indexTitle'>Browser game app inspired by Geometry wars</p>
     <p className='indexTitle'>Classic spaceship shooter game with scaling difficulty and humorous game assets</p>
-    <p className='indexTitle' style={{marginBottom:'50px'}}>Built with Javascript, Phaser3.JS Game Library, Ruby, Ruby on Rails</p>
+    <p className='indexTitle' style={{marginBottom:'50px'}}>Built with Javascript, Phaser3.JS Game Library, Ruby, Ruby on Rails</p> */}
     <Background/>
     <Footer/>
 </div>
