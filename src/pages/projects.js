@@ -20,7 +20,7 @@ export default () =>
       <RepoCard username='Ramos159' repo='personal-site'/>
     </div>
     <p className='indexTitle'>Not much to explain here, just this website. 100% handbuilt.</p>
-    <p className='indexTitle'>Nice looking Animations and pages with plain HTML and CSS(hopefully)</p>
+    <p className='indexTitle'>Nice looking Web Pages and Animations with plain HTML and CSS(hopefully)</p>
     <p className='indexTitle'>Built with Javascript and Gatsby.Js</p>
     <hr style={{color:'white',backgroundColor:'white',width:'40%'}}></hr>
     <h2 className='indexTitle'>PocketDex</h2>
