@@ -313,7 +313,11 @@ footer {
 }
 
 html {
-  color: black;
+  background-color: black;
+}
+
+body{
+  background-color: black;
 }
 
 .resume {
@@ -358,4 +362,12 @@ html {
   height: 5%;
   width: 5%;
   animation: fadeIn 4s;
+}
+
+#project {
+  text-align: center;
+}
+
+#project > * {
+  padding:10px;
 }
