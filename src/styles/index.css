@@ -16,47 +16,47 @@
     padding-left: 10px; 
   } */
 
-  .icon{
+  .icon {
     min-height: 25%;
-    min-width:25%;
-    animation:fadeIn;
+    min-width: 25%;
+    animation: fadeIn;
   }
 
-  .circleIcon{
+  .circleIcon {
     min-height: 25%;
-    min-width:25%;
-    animation:fadeIn;
+    min-width: 25%;
+    animation: fadeIn;
   }
 
   /* img.icon:hover{
     animation: none;
   } */
-  
+
   /* #icon{
     height: 30%;
     width:30%
   } */
 
-  .resume{
+  .resume {
     max-width: 90%;
-    width:90%;
+    width: 90%;
   }
 
   /* p#warning.indexTitle{
     display:block;
   } */
 
-  video{
-    display:none;
-  } 
+  video {
+    display: none;
+  }
 
-  html{
+  html {
     background-color: black;
   }
 
-  body{
+  body {
     background-color: black;
-  } 
+  }
 
   /* .navbar.re{
     z-index: 1000;
@@ -69,7 +69,7 @@
 }
 
 /* @media screen and (max-width: 600px) { */
-  /* .navbar.responsive {
+/* .navbar.responsive {
     position: fixed;
     background-color: rgba(0, 0, 0, 1);
     z-index: 1000;
@@ -80,7 +80,7 @@
     margin:0;
     top:0;
   } */
-  /* .navbar.responsive a.hiddenIcon {
+/* .navbar.responsive a.hiddenIcon {
     position: fixed;
     right: 3%;
     top: 3%;
@@ -147,7 +147,7 @@ li .responsiveItem a{
     width:100%;
     white-space: nowrap;
     /* background-color:rgba(0, 0, 0, 0.5); */
-    /* overflow:hidden;
+/* overflow:hidden;
     animation: fadein 4s; 
     min-height: 35%;
     z-index: 10;
@@ -166,11 +166,11 @@ li .responsiveItem a{
   width:100%;
   white-space: nowrap;
   /* background-color:rgba(0, 0, 0, 0.5); */
-  /* overflow:hidden;
+/* overflow:hidden;
   animation: fadein 4s; 
   min-height: 35%;
   display:none
-} */ 
+} */
 
 /* .mobile a.hiddenIcon{
   display: block;
@@ -180,7 +180,7 @@ li .responsiveItem a{
 }
 */
 
-.navbar a{
+.navbar a {
   display: block;
   color: white;
   text-align: center;
@@ -189,53 +189,53 @@ li .responsiveItem a{
   float: left;
 }
 
-.mr-auto a:hover{
-  text-decoration:none;
-  color:white;
+.mr-auto a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .mainPage {
-  border:0;
-  margin:0;
+  border: 0;
+  margin: 0;
   color: white;
-  z-index:-10;
-}
-
-.indexTitle {
-  padding-top:1%; 
-  text-align: center;
-  animation: fadein 4s;
-  color:white;
   z-index: -10;
 }
 
-@keyframes biggerFont{
-  from{
+.indexTitle {
+  padding-top: 1%;
+  text-align: center;
+  animation: fadein 4s;
+  color: white;
+  z-index: -10;
+}
+
+@keyframes biggerFont {
+  from {
     font-size: 100%;
   }
-  to{
-    font-size:110%;
+  to {
+    font-size: 110%;
     padding: 20px;
   }
 }
 @keyframes fadein {
   from {
-      opacity:0;
+    opacity: 0;
   }
   to {
-      opacity:1;
+    opacity: 1;
   }
 }
 
 @keyframes biggerPic {
   from {
-    height:5%;
-    width:5%;
+    height: 5%;
+    width: 5%;
   }
-  to{
-    height:5.5%;
-    width:5.5%;
-    top:-30px;
+  to {
+    height: 5.5%;
+    width: 5.5%;
+    top: -30px;
   }
 }
 
@@ -245,37 +245,36 @@ li .responsiveItem a{
 } */
 
 .icon:hover {
-    /* top:-25px;
+  /* top:-25px;
     left:-35px;
     width:7%;
     height:auto;
     z-index:999; */
-    animation: biggerPic .5s;
-    animation-fill-mode: forwards;
+  animation: biggerPic 0.5s;
+  animation-fill-mode: forwards;
 }
-
 
 .video {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
-  z-index:-2;
+  z-index: -2;
 }
 
 footer {
   position: absolute;
   height: 30px;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
   bottom: 0;
   text-align: center;
-  animation: fadein 4s; 
-  color:white;
+  animation: fadein 4s;
+  color: white;
 }
 
-.icon{
+.icon {
   /* display: block; 
   margin-left: auto;
   margin-right: auto; */
@@ -283,8 +282,8 @@ footer {
   width: 5%;
   height: 5%;
   min-height: 100px;
-  min-width: 100px ;
-  animation: fadein 4s; 
+  min-width: 100px;
+  animation: fadein 4s;
 }
 
 .imageDiv {
@@ -296,19 +295,19 @@ footer {
   min-height: 100%;
 }
 
-.circleIcon{
+.circleIcon {
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
   display: block;
-  height:8%;
-  width:8%;
+  height: 8%;
+  width: 8%;
   border-radius: 50%;
   animation: fadein 4s;
 }
 
 .aboutText {
   text-align: center;
-  color:white;
+  color: white;
   animation: fadein 4s;
 }
 
@@ -316,21 +315,21 @@ html {
   background-color: black;
 }
 
-body{
+body {
   background-color: black;
 }
 
 .resume {
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
   display: block;
   animation: fadeIn 4s;
-  width:825px;
-  height:1050px;
+  width: 825px;
+  height: 1050px;
 }
 .btn {
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
   display: block;
   background-color: grey;
   margin-bottom: 30px;
@@ -338,7 +337,7 @@ body{
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
-  border-color:none;
+  border-color: none;
   animation: fadeIn 4s;
 }
 
@@ -348,17 +347,17 @@ body{
 }
 
 .flexContainer {
-  width:100%;
+  width: 100%;
   margin: auto;
-  padding-top:20px;
-  padding-bottom:40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
   text-align: center;
-  display:block;
+  display: block;
   flex-wrap: wrap;
 }
 
 .skillsIcon {
-  padding:14px 16px;
+  padding: 14px 16px;
   height: 5%;
   width: 5%;
   animation: fadeIn 4s;
@@ -369,5 +368,5 @@ body{
 }
 
 #project > * {
-  padding:10px;
+  padding: 10px;
 }
