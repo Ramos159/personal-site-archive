@@ -20,22 +20,22 @@ export default () => (
     <h1 className="indexTitle">About</h1>
     <img id="icon" className="circleIcon" src={defaultPic} alt="icon" />
     <p className="aboutText">
-      I like to have fun with things, but also know the value of hard work
+      I like to have fun with things but also know the value of hard work
     </p>
     <p className="aboutText">
-      Often, you find people who either have too much fun or work too hard
+      Often you find people who either have too much fun or work too hard
     </p>
     <p className="aboutText">
-      If I didn't work hard, you'd see some default template site instead a
-      handmade one{" "}
+      If I didn't work hard, you'd see some default template site you've seen
+      before{" "}
     </p>
     <p className="aboutText">
-      If I didn't have fun, You wouldn't see this well kept mustache on a
-      default photo{" "}
+      If I didn't have fun you wouldn't see this well kept mustache on a totally
+      legit photograph of me{" "}
     </p>
     <p className="aboutText">
-      I'm a pretty minimalist guy and enjoy the simpler things in life, this
-      site reflects it
+      I'm a pretty minimalist guy and enjoy the simpler things in life. this
+      site might reflect some of that
     </p>
     <p className="aboutText">
       A main principle in design tells that less is really more. Oddly enough
