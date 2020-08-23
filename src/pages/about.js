@@ -44,8 +44,8 @@ export default () => (
     <br />
     <br />
     <p className="aboutText">
-      I use my experience as a self-taught engineer and current CS student at
-      CUNY Queens College to make great apps
+      I use my experience as a self-taught programmer and current CS student at
+      CUNY Queens College to make apps
     </p>
     <p className="aboutText">
       As of right now i am currently working as a Web Development and Design
