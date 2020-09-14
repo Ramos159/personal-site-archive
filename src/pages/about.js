@@ -44,18 +44,17 @@ export default () => (
     <br />
     <br />
     <p className="aboutText">
-      I use my experience as a self-taught programmer and current CS student at
-      CUNY Queens College to make apps
+      I am a self-taught programmer and current CS student at CUNY Queens
+      College (2022).
     </p>
     <p className="aboutText">
-      As of right now i am currently working as a Web Development and Design
-      Intern for{" "}
+      I was formally working as a Web Development and Design Intern for{" "}
       <a href="https://lighthouseguild.org" style={{ color: "white" }}>
         Lighthouse Guild
       </a>
     </p>
     <p className="aboutText">
-      My vast experience in retail allows me to work well with teams, encourage
+      My experience in retail allows me to work well with teams, encourage
       growth, and maintain chemistry
     </p>
     <p className="aboutText">
