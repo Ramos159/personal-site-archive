@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "gatsby": "^2.21.21",
+    "gatsby": "^2.25.3",
     "gatsby-plugin-manifest": "^2.2.16",
     "gatsby-plugin-transition-link": "^1.12.4",
     "gsap": "^2.1.3",
